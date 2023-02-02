@@ -22,12 +22,17 @@ p {
   width: 50px;
   border-radius: 50%;
 }
+.caption {
+  transform: translateY(-50%);
+  transform-style: preserve-3d;
+  bottom: initial;
+  top: 50%;
+}
 .carousel-caption {
   transform: translateY(-50%);
   bottom: initial;
   top: 50%;
 }
-
 @media screen and (max-width: 576px) {
   .banner {
     height: 400px;
