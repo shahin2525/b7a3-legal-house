@@ -28,11 +28,48 @@ p {
   bottom: initial;
   top: 40%;
 }
+.carousel-indicators {
+  margin-bottom: 40px;
+  padding-bottom: 120px;
+}
+/* accordion */
+.accordion-item {
+  background-color: rgb(223, 211, 211);
+}
+.accordion-button {
+  background-color: rgb(221, 211, 211);
+}
+#panelsStayOpen-headingTwo button i {
+  position: relative;
+  display: block;
+}
+#panelsStayOpen-headingTwo button i {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+#panelsStayOpen-headingOne button i {
+  position: relative;
+  display: block;
+}
+#panelsStayOpen-headingOne button i {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+
 @media screen and (max-width: 576px) {
   .banner {
     height: 400px;
   }
   .img-slide {
-    height: 700px;
+    height: 600px;
+  }
+  .carousel-indicators {
+    margin-bottom: 40px;
+    padding-bottom: 60px;
+  }
+  .last-accor-item {
+    height: 450px;
   }
 }

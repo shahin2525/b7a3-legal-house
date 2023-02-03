@@ -7,11 +7,20 @@
     <title>Document</title>
     <!-- bootstrap css file -->
     <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <!-- font awosome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- css stylesheet -->
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body class="container-lg">
-    <header class="container my-5">
+  <body class="">
+    <header class="container-lg my-5">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -135,7 +144,7 @@
       </div>
     </header>
     <!-- main section -->
-    <main>
+    <main class="container-lg">
       <!-- legal area -->
       <div class="container mt-3 pt-3">
         <div class="d-flex text-center">
@@ -218,7 +227,7 @@
       <!-- client say carusel -->
       <div
         id="carouselExampleIndicators"
-        class="carousel slide carousel-fade mb-3"
+        class="carousel slide carousel-fade mb-5"
         data-bs-ride="carousel"
         data-bs-touch="true"
       >
@@ -236,17 +245,49 @@
               <p class="mb-4">UIX Designer</p>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                praesentium repudiandae dicta magni dolore facere repellat
-                excepturi ex voluptatum doloremque!
+                I am UIX Designer.I am from Bangladesh. Insallah, very soon I
+                will be developer. But to be developer, I have to be
+                industrious. Then I will be able to be developer.
               </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/slider-2.jpg" class="d-block w-100" alt="..." />
+            <img
+              class="img-fluid img-slide"
+              src="images/slider-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <img class="img mb-4" src="images/shahin.jpg" alt="" />
+              <h2>Md.Shahin</h2>
+              <p class="mb-4">UIX Designer</p>
+
+              <p>
+                I am UIX Designer.I am from Bangladesh. Insallah, very soon I
+                will be developer. But to be developer, I have to be
+                industrious. Then I will be able to be developer.
+              </p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="images/slider-3.jpg" class="d-block w-100" alt="..." />
+            <img
+              class="img-fluid img-slide"
+              src="images/slider-3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <img class="img mb-4" src="images/shahin.jpg" alt="" />
+              <h2>Md.Shahin</h2>
+              <p class="mb-4">UIX Designer</p>
+
+              <p>
+                I am UIX Designer.I am from Bangladesh. Insallah, very soon I
+                will be developer. But to be developer, I have to be
+                industrious. Then I will be able to be developer.
+              </p>
+            </div>
           </div>
         </div>
         <button
@@ -267,7 +308,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-        <div class="carousel-indicators mb-5 pb-4">
+        <div class="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
@@ -290,8 +331,228 @@
           ></button>
         </div>
       </div>
+      <!-- frequently Questions section -->
+      <div class="container my-3 pt-3">
+        <div class="d-flex text-center">
+          <div>
+            <h3 class="mb-4">Frequently Asked Any Questions</h3>
+            <p class="mt-3">
+              There are many problem in our country to get legal help form
+              government in our country.But In this time,the government in our
+              country has taken some initive for us . We are greatful to her
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- frequently Question section 2 -->
+
+      <div class="container row row-cols-1 row-cols-md-2 h-100 mb-5">
+        <div class="col p-1">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item my-2">
+              <h2 id="panelsStayOpen-headingOne">
+                <button
+                  class="accordion-button ollapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  1. What is the difference between flexbox and grid?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+              >
+                <div class="accordion-body">
+                  <p>
+                    The basic difference between grid layout and flexbox is that
+                    flexbox was designed for layout in one dimension - either a
+                    row or a column. Grid was designed for two-dimensional
+                    layout - rows, and columns at the same time.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-2">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  2. What is the purpose of media quary?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Media queries are a key part of responsive web design, as
+                    they allow you to create different layouts depending on the
+                    size of the viewport, but they can also be used to detect
+                    other things about the environment your site is running on,
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-2">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  3.What is css box model?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree"
+              >
+                <div class="accordion-body">
+                  <p>
+                    The CSS box model is a container that contains multiple
+                    properties including borders, margin, padding, and the
+                    content itself.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-2 last-accor-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFour"
+                >
+                  4.What is semantic tag?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour"
+              >
+                <div class="accordion-body">
+                  <p>
+                    A semantic element clearly describes its meaning to both the
+                    browser and the developer. Examples of semantic elements =
+                    article,aside,header,
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col p-2">
+          <img class="img-fluid" src="images/faq.png" alt="" />
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <footer class="container-fluid bg-dark mb-4">
+      <div class="">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="text-white h-25 w-25">
+            <img class="my-3" src="images/logo.png" alt="" />
+            <p>
+              The justice system in our country is not good.At the system
+              time,the administrative system in our country is also not
+              good.That is why,we do not get proper justice.At present,the
+              government in our country has taken step against injustice
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="text-white h-25 w-25">
+            <div>
+              <h5 class="my-3">Usefull Link</h5>
+              <div class="d-block justify-content-center align-items-center">
+                <div>
+                  <a class="text-decoration-none text-white" href="">Homes</a>
+                </div>
+                <div>
+                  <a class="text-decoration-none text-white" href=""
+                    >About-Us</a
+                  >
+                </div>
+                <div>
+                  <a class="text-decoration-none text-white" href=""
+                    >Contact-Us</a
+                  >
+                </div>
+                <div>
+                  <a class="text-decoration-none text-white" href="">Blog</a>
+                </div>
+                <div>
+                  <a class="text-decoration-none text-white" href="">Couses</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="text-white h-25 w-25">
+            <h4>Contact-Us</h4>
+            <div class="my-3">
+              <p>555 4th 5t NW, Washington</p>
+              <p>DC 20530, United States</p>
+            </div>
+            <div class="my-3">
+              <p>+88 01750 000 000</p>
+              <p>+88 01750 000 000</p>
+            </div>
+            <div class="d-block justify-content-center align-items-center my-3">
+              <div>
+                <a class="text-decoration-none text-white" href=""
+                  >shahin451999@gmail.com</a
+                >
+              </div>
+              <div>
+                <a class="text-decoration-none text-white" href=""
+                  >shahin451999@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="text-white h-25 w-25">
+            <h4>Subscribe</h4>
+            <p>
+              Subscribe for our latest & Articles. We Won t Give You Spam Mails
+            </p>
+            <div
+              class="btn-group"
+              role="group"
+              aria-label="Basic mixed styles example"
+            >
+              <button type="button" class="btn btn-danger">
+                Email Address
+              </button>
+
+              <button type="button" class="btn modal-bg">4</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- bootstrap js file -->
     <script src="js/bootstrap.min.js"></script>
