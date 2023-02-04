@@ -3,6 +3,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
 .modal-bg {
   background-color: rgb(226, 135, 24);
 }
@@ -39,56 +40,16 @@ p {
 .accordion-button {
   background-color: rgb(221, 211, 211);
 }
-#panelsStayOpen-headingTwo button i {
-  position: relative;
-  display: block;
-}
-#panelsStayOpen-headingTwo button i {
-  position: absolute;
-  right: 5px;
-  top: 20px;
-}
-#panelsStayOpen-headingOne button i {
-  position: relative;
-  display: block;
-}
-#panelsStayOpen-headingOne button i {
-  position: absolute;
-  right: 5px;
-  top: 20px;
-}
-/* footer section */
-/* .justice {
-  width: 500px;
-  height: 300px;
-  margin: 10px;
-  padding: 8px 10px;
-}
-.justice-2 {
-  width: 250px;
-  height: 300px;
-  margin: 10px;
-  padding: 10px;
-}
-.justice-3 {
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  padding: 10px;
-}
-.justice-4 {
-  width: 200px;
-  height: 300px;
-  margin: 10px;
-  padding: 10px;
-} */
+
 .btn-color {
   background-color: antiquewhite;
 }
+
 @media screen and (max-width: 576px) {
   .banner {
-    height: 400px;
+    height: 450px;
   }
+
   .img-slide {
     height: 600px;
   }
@@ -98,5 +59,39 @@ p {
   }
   .last-accor-item {
     height: 450px;
+  }
+  footer {
+    margin: 10px 0px;
+    padding: 10px 0px;
+  }
+  .control-footer {
+    margin: 2px 0px;
+    padding: 2px 0px;
+  }
+  .justice {
+    height: 300px;
+    width: 200px;
+  }
+
+  .justice-p {
+    text-align: center;
+  }
+  .justice-2 {
+    height: 300px;
+    width: 200px;
+    margin: 10px 0px 20px 0px;
+    padding: 40px 0px 40px 0px;
+  }
+  .justice-3 {
+    height: 300px;
+    width: 200px;
+  }
+  .justice-4 {
+    height: 300px;
+    width: 200px;
+  }
+  .btn-group {
+    height: 40px;
+    width: 200px;
   }
 }
