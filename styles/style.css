@@ -57,7 +57,34 @@ p {
   right: 5px;
   top: 20px;
 }
-
+/* footer section */
+/* .justice {
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+  padding: 8px 10px;
+}
+.justice-2 {
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+}
+.justice-3 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+}
+.justice-4 {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+} */
+.btn-color {
+  background-color: antiquewhite;
+}
 @media screen and (max-width: 576px) {
   .banner {
     height: 400px;
